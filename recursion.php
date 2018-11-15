@@ -15,24 +15,6 @@ class Test extends CI_Controller
 		 $result = $this->nextPhoto($url, "" ,3,0);
 		
 		 echo json_encode(array('status' => TRUE, 'data' => $result));
-		 /*$var = $this->fread_url($url);
-		
-		  preg_match_all ("/a[\s]+[^>]*?href[\s]?=[\s\"\']+".
-							"(.*?)[\"\']+.*?>"."([^<]+|.*?)?<\/a>/", 
-							$var, $matches);
-
-		  $matches = $matches[1];
-		  $list = array();
- 
-		  foreach($matches as $var)
-		  {    
-			if(strpos($var, 'http') !== false)
-			{
-			  print($var."<br>");
-			}
-			
-		  }  */
-		
 	}
 	
 	function fread_url($url,$ref="")

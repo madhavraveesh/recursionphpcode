@@ -117,4 +117,4 @@ class Test extends CI_Controller
 	   }
     
  
-}
+} //https://github.com/alchemy-fr/PHPMailer_v5.1/
